@@ -1,0 +1,5 @@
+.awm-info {
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+}

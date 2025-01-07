@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont, serif;
+}
+*{
+    margin: 0 0;
+}
+footer {
+    background-color: #16a085;  /* Dark background for the footer */
+    color: white;            /* White text for the footer */
+    text-align: center;      /* Center the text */
+    padding: 0.5%;           /* Padding around the text */
+    position: fixed;         /* Fixed positioning */
+    bottom: 0;               /* Align at the bottom of the page */
+    width: 100%;             /* Full width */
+}

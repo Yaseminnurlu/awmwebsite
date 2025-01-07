@@ -1,0 +1,65 @@
+.contact-info-container {
+    padding: 1%;
+    max-width: 600px;
+    margin: 1% auto;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact-details p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact-details a {
+    color: #0077b6; /* Instagram link color */
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.email-signup {
+    margin-top: 30px;
+}
+
+.email-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-signup input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.email-signup button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-signup button:hover {
+    background-color: #005f8a;
+}
+
+.email-signup p {
+    font-size: 1rem;
+    color: green;
+}

@@ -1,0 +1,70 @@
+/* EBoard.css */
+.Wrap{
+    height: 60vh;
+}
+.eboard-member {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each card */
+    justify-content: center; /* Centers the cards */
+
+}
+
+#title {
+    text-align: center;
+}
+
+.eboard-card {
+    position: relative;
+    width: 25%; /* Fixed width */
+    height: 40%; /* Fixed height */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden; /* Ensures image stays within bounds when scaled */
+    border-radius: 10px; /* Optional: Round corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    cursor: pointer;
+    background-color: antiquewhite;
+
+}
+
+.eboard-card img {
+    width: 300%; /* Image takes full width of container */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.eboard-card:hover img {
+    transform: scale(1.1); /* Scale the image when hovering */
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
